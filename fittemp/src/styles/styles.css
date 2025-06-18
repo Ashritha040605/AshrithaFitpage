@@ -1,0 +1,115 @@
+/* General Page Layout */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6f6f6;
+  }
+  
+  .App {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #222;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Product Grid */
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  /* Product Card */
+  .product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 1rem;
+    text-align: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-card h3 {
+    color: #333;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .product-card p {
+    color: #666;
+    font-size: 0.95rem;
+  }
+  
+  /* Review Form */
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .review-form input,
+  .review-form textarea {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  
+  .review-form button {
+    background-color: #2874f0;
+    color: white;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .review-form button:hover {
+    background-color: #0b5ed7;
+  }
+  
+  /* Review List */
+  .review-list {
+    margin-top: 1rem;
+  }
+  
+  .review-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .review-list li {
+    background: #f9f9f9;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    border-left: 4px solid #2874f0;
+  }
+  
+  .review-list strong {
+    color: #111;
+  }
+  
+  .review-list em {
+    display: block;
+    color: #444;
+    margin-top: 4px;
+  }
+  
